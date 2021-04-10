@@ -1,5 +1,7 @@
 # Centipede
 
+This is an assembly version of the old Atari Centipede arcade game.
+
 Download MARS Assembly Simulator from this link http://courses.missouristate.edu/KenVollmar/mars/
 
 Open centipede.s in the MARS simulator. In tools, create a bitmap display, with 8 pixel width, and 8 pixel height, and 256x256 display width/height, and $gp, base address for display. Connect the bitmap display to MIPS, and also in tools, create a keyboard and MMIO display simulator, and connect it to MIPS. Assemble and run to play a game based off the 1980 Atari Centipede Arcade Game.
